@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin:0;
+	padding:0;
+}
+.nav { 
+     width: 1915px; 
+   height:70px;
+   background:#F66B27;
+   border:2px dashed #FFF;
+
+}
+.nav ul{
+  list-style: none;
+  line-height: 70px;
+  position: absolute;
+  left:600px;
+
+}
+.nav ul li{
+  float:left;
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  }
+  .nav ul li a:link{
+color: white;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+  }
+.nav ul li a:hover{
+    color: black;
+  }
+  div{
+    height: 900px;
+    background-color: black;
+    padding-top: 0;
+  }
+  h1 {
+    
+  text-align: center;
+  font-size: 50px;
+    font-family: "方正姚体";
+    color: #F66B27;
+
+}
+div p{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+div table{
+  width: 1500px;
+  height: 700px;
+  background-color: #666666;
+  margin:0 auto;
+}
+table td{
+  font-size: 25px;
+  color:black;
+  padding-left: 30px;
+  color: #F66B27;
+  font-weight: bold;
+}

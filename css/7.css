@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin:0;
+	padding:0;
+}
+.nav { 
+   height:70px;
+   background:#F66B27;
+   border:2px dashed #FFF;
+
+}
+.nav ul{
+  list-style: none;
+  line-height: 80px;
+  position: absolute;
+  left:600px;
+
+}
+.nav ul li{
+  float:left;
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  }
+  .nav ul li a:link{
+color: white;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+  }
+.nav ul li a:hover{
+    color: black;
+  }
+  h1{
+    text-align: center;
+    color:#F66B27;
+    font-size: 50px;
+    font-family: "微软雅黑";
+    background-color: black;
+      }
+  p{
+text-align: center;
+background-color: black;
+color: white;
+  }
+  .lyb1{
+    width: 500px;
+    position: absolute;
+    top:200px;
+    left: 780px;
+  }
+  .b1{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+  }
+  .lyb2{
+   position: absolute;
+   top:280px;
+   left: 300px;
+  }
+  .bj{
+    background-color: black;
+    height: 800px;
+  }
+  form{
+	  position:absolute;
+	  top:600px;
+	  left:800px;
+  }
+ 

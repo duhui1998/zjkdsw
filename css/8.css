@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin:0;
+	padding:0;
+}
+.nav { 
+   height:70px;
+   background:#F66B27;
+   border:2px dashed #FFF;
+
+}
+.nav ul{
+  list-style: none;
+  line-height: 80px;
+  position: absolute;
+  left:600px;
+
+}
+.nav ul li{
+  float:left;
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  }
+  .nav ul li a:link{
+color: white;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+  }
+.nav ul li a:hover{
+    color: black;
+  }
+  .nr{
+    width:1800px; 
+    height:500px; 
+    margin:0px auto;
+     padding:20px;
+     border:10px solid black; 
+      background:url(17.gif) no-repeat right bottom;
+  }
+  img{
+    width: 705px;
+    height: 500px;
+    position: absolute;
+    top:95px;
+    left: 70px;
+  }
+  .box{
+    width: 600px;
+    background-color: red;
+    font-size: 50px;
+    font-family: "微软雅黑";
+    position: absolute;
+    top: 100px;
+    left:1000px;
+  }
+  #d,#h,#m,#s{
+    color:black;
+    text-align: center;
+  }
+  .a1{
+    position: absolute;
+    top:500px;
+    left: 1000px;
+font-size: 80px;
+border:10px dashed red;
+background-color: pink;
+  }
+  .an{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+  }

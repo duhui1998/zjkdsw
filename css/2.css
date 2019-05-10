@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+.nav { 
+     width: 1915px; 
+	 height:70px;
+	 background:#F66B27;
+	 border:2px dashed #FFF;
+
+}
+.nav ul{
+	list-style: none;
+	line-height: 70px;
+	position: absolute;
+	left:600px;
+
+}
+.nav ul li{
+	float:left;
+	padding-left: 50px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	}
+	.nav ul li a:link{
+color: white;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+	}
+.nav ul li a:hover{
+		color: black;
+}
+.about{
+	background-color: black;
+	color: white;
+	line-height: 30px;
+}
+h1{
+	color: #F66B27;
+	font-size: 50px;
+	font-family: "方正姚体";
+	text-align: center;
+	padding-top: 5px;
+}
+.about p{
+	text-align: center;
+	padding-top: 30px;
+}
+.about ul{
+padding-left: 1000px;
+list-style: none;
+}
+.tm {
+	color: #F66B27;
+	padding-top: 30px;
+}
+.tm2{
+	padding-bottom: 50px;
+}
+img{
+	width: 540px;
+	height: 415px;
+	position: absolute;
+	top:250px;
+	left:380px;
+}
+span{
+	position:absolute;
+	top:90px;
+	font-size:45px;

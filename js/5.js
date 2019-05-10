@@ -1,0 +1,1 @@
+prompt("你是否知道他们","不知道")// JavaScript Document
